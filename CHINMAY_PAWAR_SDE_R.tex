@@ -1,0 +1,121 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+
+\name{\vspace{-1mm}Chinmay Pawar} % Your name
+\address{+1(312) 937-5354 \\ Chicago, IL (Open to relocation)} 
+
+\address{\href{mailto:pawarchinmay27.work@gmail.com}{pawarchinmay27.work@gmail.com} \\  \href{https://www.linkedin.com/in/pawarchinmay27/}{linkedin.com/pawarchinmay27} \\ \href{https://github.com/pawarchinmay27}{github.com/pawarchinmay27}}  %
+\vspace{-2mm}
+\begin{document}
+
+\vspace{-4mm}
+
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{EXPERIENCE}
+\vspace{-1mm}
+\textbf{Senior Software Engineer} \hfill \textbf{Jan 2022 – Aug 2022}\\
+Morgan Stanley \hfill
+\vspace{-3mm}
+ \begin{itemize}
+    \itemsep -8pt {} 
+     \item Served as a Senior Software Engineer on the Vista trade engine project, designing high-performance, distributed cross-asset allocation applications for processing \textbf{20M+} daily messages.
+     \item Created a scalable, multi-threaded trade engine with microservices, handling \textbf{2M+} real-time events from various external apps for live trade visualization.
+     \item Improved performance by refactoring legacy code, resulting in a \textbf{90\%} reduction in execution time for a critical algorithm handling one of MS's largest client orders ever.
+     \item Mentored three junior engineers for seamless team integration, conducted thorough code reviews to maintain high-quality standards.
+ \end{itemize}
+\vspace{-2mm}
+\textbf{SDE II} \hfill \textbf{Jan 2020 – Jan 2022}\\
+HERE Technologies \hfill 
+\vspace{-3mm}
+ \begin{itemize}
+    \itemsep -8pt {} 
+    \item Incorporated self-healing capabilities in the application by automatically replaying failed data extraction jobs, resulting in a \textbf{90\%} reduction in product delivery time and ensuring data integrity.
+    \item Rearchitected the application design to address distributed locking and consensus challenges, enabling seamless deployment on Kubernetes pods and boosting performance by \textbf{40\%}.
+    \item Established CI/CD from the ground up for the 
+     application on GitLab, improving lead time by \textbf{90\%}.
+     \item Redesigned and optimized existing code, leading to an exceptional\textbf{ 97\%} reduction in response time for the search feature's performance.
+ \end{itemize}
+\vspace{-2mm}
+ \textbf{Software Engineer} \hfill \textbf{Jul 2018 –  Jan 2020}\\
+Zycus \hfill 
+\vspace{-3mm}
+ \begin{itemize}
+    \itemsep -8pt {} 
+\item Built 5 asynchronous microservices using message queues for the Integration Platform product, facilitating seamless data integration from client’s ERP to Zycus’s product ecosystem.
+\item Developed a distributed rate limiter, precisely curbing concurrent user requests per unit of time based on their subscribed API plans, culminating in the creation of a remarkable \textbf{2 million \$} revenue stream for the organization.
+\item Implemented service discovery feature which enabled dynamically routing client’s API requests to healthy internal application servers, ensuring a \textbf{97.99} uptime SLA.
+ \end{itemize}
+\end{rSection} 
+
+\vspace{-2mm}
+%----------------------------------------------------------------------------------------
+% TECHNICAL STRENGTHS	
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{TECHNICAL SKILLS}
+\vspace{-1mm}
+\begin{tabular}{ @{} l @{\hspace{2ex}} l }
+Programming Languages: & Java, Scala, Python, JavaScript, SQL\\
+Database: & MS SQL, Oracle, Redis, Mongo DB \\
+Frameworks: & Spring Boot, Hibernate, Play, Spring Security, Junit, Mockito, GraphQL\\
+Tools: & Git, ActiveMQ, Docker, Kubernetes, Maven, Jira\\
+Cloud Platforms: & AWS, Azure\\
+Architecture: & REST, Microservices, Distributed Systems
+
+\end{tabular}
+\end{rSection}
+
+
+\vspace{-2mm}
+%----------------------------------------------------------------------------------------
+%	PROJECT SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{RELEVANT PROJECTS}
+\vspace{-1mm}
+\textbf{GoLang Based Monitoring Agent: }
+\vspace{-3mm}
+ \begin{itemize}
+    \itemsep -8pt {} 
+    \item Engineered a cross-platform Golang library for retrieving system stats across servers, offering hassle-free deployment as an executable binary, eliminating server-side prerequisites.
+ \end{itemize}
+ 
+\vspace{-2mm}
+\textbf{GraphQL Query Tool:}
+\vspace{-3mm}
+ \begin{itemize}
+    \itemsep -8pt {}
+    \item Designed a GraphQL dashboard for engineering teams to access production environment's information, resulting in a remarkable \textbf{95\%} reduction in application deployment time and enhanced operational efficiency.
+ \end{itemize}
+ 
+
+ \end{rSection} 
+
+\vspace{-2mm}
+
+% EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+{\bf Master of Information Systems}, University of Illinois Chicago \hfill {Dec 2023}  \newline 
+{\bf Bachelor of Computer Science and Engineering}, Mumbai University \hfill {Jul 2018} 
+%Minor in Linguistics \smallskip \\
+%Member of Eta Kappa Nu \\
+%Member of Upsilon Pi Epsilon \\
+
+
+\end{rSection}
+
+\vspace{-2mm}
+
+
+
+
+\end{document}
