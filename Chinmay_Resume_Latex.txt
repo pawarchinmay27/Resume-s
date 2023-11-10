@@ -1,0 +1,122 @@
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+% Define a custom command for camel case section titles
+\newcommand{\camelCase}[1]{%
+  \textbf{#1}%
+}
+\usepackage{setspace}
+\name{Chinmay Pawar} % Your name
+% You can merge both of these into a single line, if you do not have a website.
+\address{+1(312) 937-5354 \\ Chicago, IL}
+\address{\href{mailto:pawarchinmay27.work@gmail.com}{pawarchinmay27.work@gmail.com} \\ \href{https://www.linkedin.com/in/pawarchinmay27/}{linkedin.com/pawarchinmay27} \\ \href{https://github.com/pawarchinmay27}{github.com/pawarchinmay27}}  %
+
+\begin{document}
+
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Objective}
+
+{Senior Software Engineer with 5+ years of experience in backend and full stack development, seeking full-time Software Engineering roles.}
+
+
+\end{rSection}
+%----------------------------------------------------------------------------------------
+
+
+
+\begin{rSection}{ Professional Experience }
+
+\textbf{Senior Software Engineer} \hfill Jan 2022 - Aug 2022\\
+Morgan Stanley
+ \begin{itemize}
+    \itemsep -3pt {}
+     \item Worked as a Senior Software Engineer for the Vista trade engine project, responsible for developing large-scale, highly distributed and mission-critical cross-asset allocation applications to handle \textbf{20M+} messages daily.
+     \item Designed and implemented a highly scalable and adaptable multi-threaded trade engine using microservices architecture to display \textbf{2M+} real-time events sourced from diverse external applications catering to live trade visualization on the user interface.
+    \item Enhanced performance by streamlining and refactoring legacy code segments, leading to a \textbf{90\%}
+    reduction in execution time of a pivotal algorithm responsible for processing one of the largest client orders in MS's history.
+ \end{itemize}
+
+\textbf{SDE II} \hfill Jan 2020 - Jan 2022\\
+Here Technologies
+ \begin{itemize}
+    \itemsep -4pt {}
+     \item Integrated self-healing feature in the application by developing an automatic job replay functionality for failed long-running data extractions, ensuring zero data inconsistencies and improving product delivery time by \textbf{90\%}.
+     \item Redesigned and optimized existing code, leading to an exceptional\textbf{ 97\%} reduction in response time for the search feature's performance.
+    \item Revamped existing architecture for the application, resolved challenges coupled with distributed locking and consensus which in turn added ability to run the application on Kubernetes pods, resulting in a \textbf{40\%} increase in performance.
+    \item Established CI/CD from the ground up for the
+     application on GitLab, improving lead time by \textbf{90\%}.
+ \end{itemize}
+
+
+
+
+
+ \textbf{Software Engineer} \hfill Aug 2018 - Jan 2020\\
+Zycus
+ \begin{itemize}
+    \itemsep -5pt {}
+     \item As a software engineer on a team of 10 engineers, worked on designing and implementing solutions that that enhanced the efficiency and reliability of Zycus's data integration processes.
+     \item Built 5 asynchronous microservices using message queues for the Integration Platform product, facilitating seamless data integration from client’s ERP to Zycus’s product ecosystem.
+     \item Developed a distributed rate limiter, precisely curbing concurrent user requests per unit of time based on their subscribed API plans, culminating in the creation of a remarkable \textbf{2 million \$} revenue stream for the organization.
+    \item Implemented service discovery feature which enabled dynamically routing client’s API requests to healthy internal application servers, ensuring a \textbf{97.99} uptime SLA.
+    \item Provided guidance and mentorship to three junior engineers, ensuring their seamless integration into the team through comprehensive knowledge sharing.
+    Conducted rigorous code reviews for merge requests, upholding elevated code quality standards.
+ \end{itemize}
+\end{rSection}
+
+% EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Master of Information Systems}, University of Illinois Chicago \hfill \ {Dec 2023} \newline \onehalfspacing
+{\bf Bachelor of Computer Science and Engineering}, Mumbai University \hfill {Jul 2018}
+%Minor in Linguistics \smallskip \\
+%Member of Eta Kappa Nu \\
+%Member of Upsilon Pi Epsilon \\
+
+
+\end{rSection}
+
+
+
+%----------------------------------------------------------------------------------------
+% TECHINICAL STRENGTHS
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{SKILLS}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Languages & Java, Scala, Python, JavaScript, SQL
+\\
+
+Databases & MS SQL, Oracle, Redis, Mongo DB\\
+Frameworks & Spring Boot, Hibernate, Play, Spring Security, Junit, Mockito, GraphQL\\
+Tools & Git, ActiveMQ, Docker, Kubernetes, Maven, Jira\\
+Cloud Platforms & AWS, Azure\\
+Architecture & REST, Microservices, Distributed Systems
+\end{tabular}\\
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{PROJECTS}
+\vspace{-1.25em}
+\item \textbf{Go lang based Monitoring agent:} {Engineered a cross-platform Golang library for seamless retrieval of process, system utilization, and network statistics across diverse server environments. Ensured hassle-free deployment as an executable binary, eliminating the need for server-side prerequisites.
+}
+\item \textbf{Infra Knowledge Graph:} {Built an organizational infrastructure knowledge graph using Neo4j graph database, effectively charting vital components such as VPCs, subnets and servers. Led in-depth dependency analyses within the infrastructure context, encompassing critical elements on web, application and database layer. The resultant analysis fortified the organization's infrastructure policy and streamlined operations for engineering teams.
+}
+\item \textbf{GraphQL Query Tool:} {Developed a GraphQL based solution for engineering teams, enabling seamless retrieval of critical production environment information, including hosted applications and dependent infrastructure components. This innovation led to optimized operations and an outstanding \textbf{95\%} decrease in application deployment duration.
+}
+\end{rSection}
+
+
+\end{document}
